@@ -4,11 +4,12 @@ import { Link, NavLink } from "react-router-dom";
 export default function Header() {
   return (
     <header className="shadow sticky z-50 top-0">
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5">
+      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-3.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img
-              src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1282565/retina_1708x683_cover-react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png"
+              src="https://wallpapers.com/images/featured/information-technology-nucb4z97b3q78mjk.jpg"
+              width="110"
               className="mr-3 h-12"
               alt="Logo"
             />
@@ -76,16 +77,6 @@ export default function Header() {
                 >
                   Contact
                 </NavLink>
-              </li>
-              <li>
-                <a
-                  href="https://www.linkedin.com/in/johan-swan-835214193/"
-                  className="hover:underline"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  LinkedIn
-                </a>
               </li>
               <li>
                 <NavLink

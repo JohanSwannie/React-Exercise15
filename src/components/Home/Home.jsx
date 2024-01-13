@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="mx-auto w-full max-w-7xl">
       <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-        <div className="relative z-10 max-w-screen-xl px-4  pb-20 pt-10 sm:py-24 mx-auto sm:px-6 lg:px-8">
+        <div className="relative z-10 max-w-screen-lg px-4  pb-20 pt-2 sm:py-10 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl sm:mt-1 mt-20 space-y-4 text-center sm:text-right sm:ml-auto">
             <h5 className="text-4xl font-bold sm:text-2xl">
               Feel free to Download
@@ -23,7 +23,7 @@ export default function Home() {
 
         <div className="absolute inset-0 w-full sm:my-8 sm:pt-1 pt-12 h-full ">
           <img
-            className="w-72"
+            className="w-60"
             src="https://img.freepik.com/premium-vector/utch-man-viewed-from-side-behind-laptop-02-copy-5-01_961307-1185.jpg"
             alt="image1"
           />

@@ -8,7 +8,7 @@ export default function Header() {
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img
-              src="https://alexharkness.com/wp-content/uploads/2020/06/logo-2.png"
+              src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1282565/retina_1708x683_cover-react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png"
               className="mr-3 h-12"
               alt="Logo"
             />
@@ -78,19 +78,14 @@ export default function Header() {
                 </NavLink>
               </li>
               <li>
-                <NavLink
-                  to="/github"
-                  className={({ isActive }) =>
-                    `block py-2 pr-4 pl-3 duration-200 border-b border-gray-100 
-                                        ${
-                                          isActive
-                                            ? "text-orange-700"
-                                            : "text-gray-700"
-                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
-                  }
+                <a
+                  href="https://www.linkedin.com/in/johan-swan-835214193/"
+                  className="hover:underline"
+                  target="_blank"
+                  rel="noreferrer"
                 >
-                  Github
-                </NavLink>
+                  LinkedIn
+                </a>
               </li>
               <li>
                 <NavLink

@@ -41,7 +41,7 @@ export default function Header() {
                                           isActive
                                             ? "text-orange-700"
                                             : "text-gray-700"
-                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-950 lg:p-0`
                   }
                 >
                   Home
@@ -56,7 +56,7 @@ export default function Header() {
                                           isActive
                                             ? "text-orange-700"
                                             : "text-gray-700"
-                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-950 lg:p-0`
                   }
                 >
                   About
@@ -71,7 +71,7 @@ export default function Header() {
                                           isActive
                                             ? "text-orange-700"
                                             : "text-gray-700"
-                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-950 lg:p-0`
                   }
                 >
                   Contact
@@ -86,7 +86,7 @@ export default function Header() {
                                           isActive
                                             ? "text-orange-700"
                                             : "text-gray-700"
-                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-700 lg:p-0`
+                                        } lg:hover:bg-transparent lg:border-0 hover:text-orange-950 lg:p-0`
                   }
                 >
                   User

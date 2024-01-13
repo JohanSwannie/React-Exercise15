@@ -13,7 +13,7 @@ export default function Home() {
             </h5>
 
             <Link
-              className="inline-flex text-white items-center px-6 py-2 font-small bg-orange-700 rounded-lg hover:opacity-75"
+              className="inline-flex text-white items-center px-6 py-2 text-lg bg-orange-700 rounded-lg hover:opacity-75"
               to="/"
             >
               &nbsp; Download now

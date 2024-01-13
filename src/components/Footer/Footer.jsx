@@ -49,9 +49,14 @@ export default function Footer() {
                   </a>
                 </li>
                 <li>
-                  <Link to="/" className="hover:underline">
-                    Discord
-                  </Link>
+                  <a
+                    href="https://www.linkedin.com/in/johan-swan-835214193/"
+                    className="hover:underline"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    LinkedIn
+                  </a>
                 </li>
               </ul>
             </div>

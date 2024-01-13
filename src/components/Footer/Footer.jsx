@@ -9,8 +9,9 @@ export default function Footer() {
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               <img
-                src="https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/1282565/retina_1708x683_cover-react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png"
-                className="mr-3 h-16"
+                src="https://www.logomyway.com/logos_new/OrangeTech_1769/ORANGE2_1.jpg"
+                width="200"
+                className="mr-3 h-26"
                 alt="Logo"
               />
             </Link>

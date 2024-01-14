@@ -6,12 +6,11 @@ export default function Home() {
   return (
     <div className="mx-auto w-full max-w-7xl">
       <aside className="relative overflow-hidden text-black rounded-lg sm:mx-16 mx-2 sm:py-16">
-        <div className="relative z-10 max-w-screen-lg px-4  pb-20 pt-2 sm:py-10 mx-auto sm:px-6 lg:px-8">
+        <div className="relative z-10 max-w-screen-lg px-4 pb-20 pt-2 sm:py-10 mx-auto sm:px-6 lg:px-8">
           <div className="max-w-xl sm:mt-1 mt-20 space-y-4 text-center sm:text-right sm:ml-auto">
             <h5 className="text-4xl font-bold sm:text-2xl">
               Feel free to Download
             </h5>
-
             <Link
               className="inline-flex text-white items-center px-6 py-2 text-lg bg-orange-700 rounded-lg hover:opacity-75"
               to="/"

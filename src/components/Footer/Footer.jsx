@@ -86,7 +86,11 @@ export default function Footer() {
             © 2024 - Johan Swan - All Rights Reserved
           </span>
           <div className="flex mt-4 space-x-5 sm:justify-center sm:mt-0">
-            <Link to="#" className="text-gray-500 hover:text-gray-900">
+            <Link
+              to="https://www.linkedin.com/in/johan-swan-835214193/"
+              target="_blank"
+              className="text-gray-500 hover:text-gray-900"
+            >
               <svg
                 className="w-6 h-6"
                 aria-hidden="true"
@@ -101,7 +105,11 @@ export default function Footer() {
               </svg>
               <span className="sr-only">LinkedIn page</span>
             </Link>
-            <Link to="#" className="text-gray-500">
+            <Link
+              to="https://github.com/JohanSwannie"
+              target="_blank"
+              className="text-gray-500"
+            >
               <svg
                 className="w-6 h-6"
                 aria-hidden="true"

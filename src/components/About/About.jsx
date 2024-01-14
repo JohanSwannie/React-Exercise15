@@ -1,4 +1,3 @@
-import { Link } from "react-router-dom";
 import Scroll from "../Scroll/Scroll";
 
 export default function About() {

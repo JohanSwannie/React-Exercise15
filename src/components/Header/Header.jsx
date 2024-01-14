@@ -3,9 +3,9 @@ import { Link, NavLink } from "react-router-dom";
 export default function Header() {
   return (
     <header className="shadow-xl sticky z-50 top-0">
-      <nav className="bg-orange-50 border-gray-200 px-4 lg:px-6 py-3.5">
+      <nav className="bg-orange-50 border-gray-950 px-4 lg:px-6 py-3.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <Link to="/" className="flex items-center">
+          <Link to="/">
             <img
               src="https://www.logomyway.com/logos_new/OrangeTech_1769/ORANGE2_1.jpg"
               className="mr-1 h-20 mix-blend-multiply"
@@ -26,10 +26,7 @@ export default function Header() {
               Get started
             </Link>
           </div>
-          <div
-            className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1"
-            id="mobile-menu-2"
-          >
+          <div className="hidden justify-between items-center w-full lg:flex lg:w-auto lg:order-1">
             <ul className="flex flex-col mt-4 font-semibold text-lg lg:flex-row lg:space-x-20 lg:mt-0">
               <li>
                 <NavLink

@@ -7,7 +7,7 @@ function User() {
   Scroll();
 
   return (
-    <div className="bg-orange-200 text-black text-3xl text-center py-5">
+    <div className="bg-orange-100 text-black text-3xl text-center py-5">
       User: {userId}
     </div>
   );

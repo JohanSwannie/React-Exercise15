@@ -2,13 +2,13 @@ import { Link, NavLink } from "react-router-dom";
 
 export default function Header() {
   return (
-    <header className="shadow sticky z-50 top-0">
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-3.5">
+    <header className="shadow-xl sticky z-50 top-0">
+      <nav className="bg-orange-50 border-gray-200 px-4 lg:px-6 py-3.5">
         <div className="flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
           <Link to="/" className="flex items-center">
             <img
               src="https://www.logomyway.com/logos_new/OrangeTech_1769/ORANGE2_1.jpg"
-              className="mr-1 h-20"
+              className="mr-1 h-20 mix-blend-multiply"
               alt="Logo"
             />
           </Link>

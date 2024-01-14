@@ -2,13 +2,13 @@ import { useParams } from "react-router-dom";
 import Scroll from "../Scroll/Scroll";
 
 function User() {
-  const { userid } = useParams();
+  const { userId } = useParams();
 
   Scroll();
 
   return (
     <div className="bg-orange-200 text-black text-3xl text-center py-5">
-      User: {userid}
+      User: {userId}
     </div>
   );
 }
